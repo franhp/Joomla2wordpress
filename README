@@ -1,0 +1,17 @@
+This script allows a wordpress database to get the articles, categories, users, etc. from a joomla database.
+
+Use: 
+
+- Truncate the following tables from wordpress:
+ wp_comments
+ wp_posts
+ wp_terms
+
+ wp_term_taxonomy
+ wp_term_relationships
+ wp_users
+ wp_usermeta
+
+ wp_links
+
+- And then execute the script to migrate all the data.
